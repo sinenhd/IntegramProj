@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "rheaapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authrheastagram2f6e2c8c",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

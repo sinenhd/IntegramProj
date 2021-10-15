@@ -1,0 +1,25 @@
+{
+  "short_name": "Rheastagram",
+  "name": "Serverless Instagram",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "rhea192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "rhea430.png",
+      "type": "image/png",
+      "sizes": "430x430"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#4082de",
+  "background_color": "#ffffff"
+}
